@@ -2,9 +2,32 @@
 <html>
 <head>
     <title>webpack 2 demo</title>
-    <script src="https://unpkg.com/lodash@4.16.6"></script>
+    <link rel="stylesheet" href="src/leafnotes.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+<div class="leafnotes">
+    <div class="menu">
+        <div class="btnGroup">
+            <button type="button"><i
+                    class="fa fa-bold"></i></button>
+            <button type="button"><i class="fa fa-italic"></i></button>
+            <button type="button">
+                <i class="fa fa-underline"></i>
+            </button>
+            <button type="button">
+                <i class="fa fa-strikethrough"></i>
+            </button>
+        </div>
+    </div>
+    <div class="editor">
+        <iframe class="writing">
+
+        </iframe>
+    </div>
+
+</div>
 <script src="dist/main.js"></script>
 </body>
 </html>

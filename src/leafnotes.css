@@ -1,0 +1,32 @@
+.leafnotes{
+    padding: 0;
+    width: 300px;
+    height: 500px;
+}
+.leafnotes .menu{
+    border: none;
+    margin: auto;
+    background-color: #c2c2c5;
+    padding : 10px 5px;
+
+}
+.leafnotes .menu .btnGroup{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.leafnotes .editor{
+    margin: auto;
+    display: block;
+    padding: 15px;
+    border-width: 0 1px 1px 1px;
+    border-color: #696669;
+    border-style: solid;
+    border-radius: 0 0 5px 5px;
+}
+.leafnotes .editor .writing{
+    margin: auto;
+    width: 100%;
+}
+
+.
