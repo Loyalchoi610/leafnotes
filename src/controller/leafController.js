@@ -1,4 +1,4 @@
-export default class TreeController{
+export default class LeafController{
     constructor(){
         this.data='tree'
     }
