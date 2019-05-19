@@ -1,8 +1,8 @@
-// index.js
-import TreeController from './controller/treeController'
+
+import LeafController from './controller/leafController'
 function component () {
     let element = document.createElement('div');
-    element.innerHTML = new TreeController().getData();
+    element.innerHTML = new LeafController().getData();
     return element;
 }
 
